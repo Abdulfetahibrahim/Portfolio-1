@@ -1,0 +1,89 @@
+.projectWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-block: 20px;
+}
+
+.project {
+  max-width: 340px;
+  height: auto;
+  font-size: 14px;
+}
+
+.project img {
+  aspect-ratio: 2/1;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.project .projectInfo {
+  padding: 10px;
+}
+
+.projectInfo .projectDetails {
+  height: 130px;
+}
+
+.projectDetails .projectTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.projectDetails p {
+  opacity: 0.7;
+}
+
+.projectInfo .technologiesUsed {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.technologiesUsed .technologiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+}
+.technologiesList span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: #1b1b1b;
+  border: 1px solid var(--border);
+  padding: 2px 10px;
+  border-radius: 11.665px;
+}
+
+.project .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 10px;
+  gap: 10px;
+}
+
+.project .buttons a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.project .buttons i {
+  font-size: 16px;
+}
+
+.project .buttons .liveDemo {
+  color: var(--primary);
+  background: var(--secondary);
+}

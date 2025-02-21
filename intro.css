@@ -1,0 +1,100 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.img-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  height: 105.33px;
+  padding-inline: 20px;
+}
+
+.intro .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background: var(--frame);
+  border-radius: 50%;
+}
+.intro img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info span:first-of-type {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.info span:not(:first-of-type) {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 105.33px;
+  padding-inline: 20px;
+}
+
+.contacts .links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-inline: 10px;
+}
+
+.contacts p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.contacts p i {
+  font-size: 16px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contacts a:nth-child(6) {
+  font-size: 23.7px;
+  margin-top: -3px;
+}
+
+.contacts a:hover {
+  opacity: 0.7;
+}
+.contacts a:focus {
+  transform: scale(1.05);
+}
+
+@media (min-width: 700px) {
+  .img-info,
+  .contacts {
+    width: 48%;
+  }
+}

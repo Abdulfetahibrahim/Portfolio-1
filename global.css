@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: min(700px, 100% - 40px);
+  margin-inline: auto;
+  padding-block: 50px;
+}
+
+.divBorder {
+  border-radius: 5px;
+  border: 1px solid var(--border);
+}
+
+h1 {
+  font-size: 16px;
+}

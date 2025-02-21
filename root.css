@@ -1,0 +1,13 @@
+:root {
+  --primary: #000000;
+  --secondary: #fafafa;
+  --frame: conic-gradient(
+    from 180deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #7f1392,
+    #f58529
+  );
+  --border: #353535;
+}

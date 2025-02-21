@@ -1,0 +1,45 @@
+.img-info {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.7s ease-in-out;
+}
+
+.contacts {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.7s ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.img-info.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.contacts.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (min-width: 700px) {
+  .img-info {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.7s ease-in-out;
+  }
+
+  .img-info.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .contacts {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.7s ease-in-out;
+  }
+
+  .contacts.show {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

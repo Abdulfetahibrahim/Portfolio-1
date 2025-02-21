@@ -1,0 +1,22 @@
+@import url(fonts.css);
+@import url(root.css);
+@import url(global.css);
+@import url(animations.css);
+@import url(intro.css);
+@import url(technology.css);
+@import url(projects.css);
+@import url(experience.css);
+@import url(footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--primary);
+  color: var(--secondary);
+  font-family: "poppins", sans-serif;
+}
